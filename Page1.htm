@@ -1,0 +1,123 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML xmlns:o = "urn:schemas-microsoft-com:office:office" xmlns:x = 
+"urn:schemas-microsoft-com:office:excel" xmlns:a = 
+"urn:schemas-microsoft-com:office:access" xmlns:dt = 
+"uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"><HEAD><TITLE>qryCustomer</TITLE><LINK 
+href="./Page1_files/filelist.xml" type=text/xml rel=File-List>
+<META content=Access.Application name=ProgId>
+<META name=VBSForEventHandlers VALUE="TRUE">
+<META http-equiv=Content-Type content="text/html; charset=windows-1252">
+<STYLE id=MSODAPDEFAULTS type=text/css rel="stylesheet">.mstheme-label {
+	FONT-SIZE: 8pt; FONT-FAMILY: Tahoma
+}
+TEXTAREA {
+	FONT-SIZE: 8pt; FONT-FAMILY: Tahoma
+}
+.msoboundhtml {
+	FONT-SIZE: 8pt; FONT-FAMILY: Tahoma
+}
+HR {
+	COLOR: black
+}
+SELECT {
+	FONT-SIZE: 8pt; FONT-FAMILY: Tahoma
+}
+INPUT {
+	FONT-SIZE: 8pt; FONT-FAMILY: Tahoma
+}
+BODY {
+	FONT-SIZE: 10pt; FONT-FAMILY: Tahoma
+}
+MARQUEE {
+	FONT-SIZE: 8pt; FONT-FAMILY: Tahoma
+}
+LEGEND {
+	FONT-SIZE: 8pt; FONT-FAMILY: Tahoma
+}
+.msoHyperlinkDisplayText {
+	FONT-SIZE: 8pt; FONT-FAMILY: Tahoma
+}
+BUTTON {
+	FONT-SIZE: 8pt; FONT-FAMILY: Tahoma
+}
+.MsoShowDesignGrid {
+	BEHAVIOR: url(#DEFAULT#MsoShowDesignGrid)
+}
+</STYLE>
+
+<OBJECT id=MSODSC codeBase=file:E:\msowc.cab#version=9,0,0,2710 
+classid=CLSID:0002E530-0000-0000-C000-000000000046><PARAM NAME="XMLData" VALUE="<xml xmlns:a=&quot;urn:schemas-microsoft-com:office:access&quot;>&#13;&#10; <a:DataSourceControl>&#13;&#10;  <a:OWCVersion>9.0.0.2710</a:OWCVersion>&#13;&#10;  <a:ConnectionString>Provider=Microsoft.Jet.OLEDB.4.0;User ID=Admin;Data Source=D:\AccessServerEx\rentals2000.mdb;Mode=Share Deny None;Jet OLEDB:System database=&amp;quot;&amp;quot;;Jet OLEDB:Database Password=&amp;quot;&amp;quot;</a:ConnectionString>&#13;&#10;  <a:MaxRecords>10000</a:MaxRecords>&#13;&#10;  <a:GridX>24</a:GridX>&#13;&#10;  <a:GridY>24</a:GridY>&#13;&#10;  <a:ElementExtension>&#13;&#10;   <a:ElementID>qryCustomerNavigation</a:ElementID>&#13;&#10;   <a:ConsumesRecordset/>&#13;&#10;  </a:ElementExtension>&#13;&#10;  <a:ElementExtension>&#13;&#10;   <a:ElementID>qryCustomer-LastNameNavigation</a:ElementID>&#13;&#10;   <a:ConsumesRecordset/>&#13;&#10;  </a:ElementExtension>&#13;&#10;  <a:ElementExtension>&#13;&#10;   <a:ElementID>GroupOfqryCustomer-LastName</a:ElementID>&#13;&#10;   <a:ControlSource>GroupOfqryCustomer-LastName</a:ControlSource>&#13;&#10;   <a:ChildLabel>GroupOfqryCustomer-LastName_Label</a:ChildLabel>&#13;&#10;  </a:ElementExtension>&#13;&#10;  <a:ElementExtension>&#13;&#10;   <a:ElementID>FirstName</a:ElementID>&#13;&#10;   <a:ControlSource>FirstName</a:ControlSource>&#13;&#10;   <a:ChildLabel>FirstName_Label</a:ChildLabel>&#13;&#10;  </a:ElementExtension>&#13;&#10;  <a:ElementExtension>&#13;&#10;   <a:ElementID>Street1</a:ElementID>&#13;&#10;   <a:ControlSource>Street1</a:ControlSource>&#13;&#10;   <a:ChildLabel>Street1_Label</a:ChildLabel>&#13;&#10;  </a:ElementExtension>&#13;&#10;  <a:ElementExtension>&#13;&#10;   <a:ElementID>Street2</a:ElementID>&#13;&#10;   <a:ControlSource>Street2</a:ControlSource>&#13;&#10;   <a:ChildLabel>Street2_Label</a:ChildLabel>&#13;&#10;  </a:ElementExtension>&#13;&#10;  <a:ElementExtension>&#13;&#10;   <a:ElementID>City</a:ElementID>&#13;&#10;   <a:ControlSource>City</a:ControlSource>&#13;&#10;   <a:ChildLabel>City_Label</a:ChildLabel>&#13;&#10;  </a:ElementExtension>&#13;&#10;  <a:ElementExtension>&#13;&#10;   <a:ElementID>State</a:ElementID>&#13;&#10;   <a:ControlSource>State</a:ControlSource>&#13;&#10;   <a:ChildLabel>State_Label</a:ChildLabel>&#13;&#10;  </a:ElementExtension>&#13;&#10;  <a:ElementExtension>&#13;&#10;   <a:ElementID>Country</a:ElementID>&#13;&#10;   <a:ControlSource>Country</a:ControlSource>&#13;&#10;   <a:ChildLabel>Country_Label</a:ChildLabel>&#13;&#10;  </a:ElementExtension>&#13;&#10;  <a:ElementExtension>&#13;&#10;   <a:ElementID>ZipCode</a:ElementID>&#13;&#10;   <a:ControlSource>ZipCode</a:ControlSource>&#13;&#10;   <a:ChildLabel>ZipCode_Label</a:ChildLabel>&#13;&#10;  </a:ElementExtension>&#13;&#10;  <a:ElementExtension>&#13;&#10;   <a:ElementID>HomePhone</a:ElementID>&#13;&#10;   <a:ControlSource>HomePhone</a:ControlSource>&#13;&#10;   <a:ChildLabel>HomePhone_Label</a:ChildLabel>&#13;&#10;  </a:ElementExtension>&#13;&#10;  <a:GroupLevel>&#13;&#10;   <a:RecordSource>qryCustomer-LastName</a:RecordSource>&#13;&#10;   <a:DefaultSort>[GroupOfqryCustomer-LastName]</a:DefaultSort>&#13;&#10;   <a:HeaderElementId>HeaderqryCustomerLastName</a:HeaderElementId>&#13;&#10;   <a:FooterElementId></a:FooterElementId>&#13;&#10;   <a:CaptionElementId></a:CaptionElementId>&#13;&#10;   <a:RecordNavigationElementId>NavigationSectionqryCustomerLastName</a:RecordNavigationElementId>&#13;&#10;   <a:DataPageSize>1</a:DataPageSize>&#13;&#10;  </a:GroupLevel>&#13;&#10;  <a:GroupLevel>&#13;&#10;   <a:RecordSource>qryCustomer</a:RecordSource>&#13;&#10;   <a:DefaultSort></a:DefaultSort>&#13;&#10;   <a:HeaderElementId>HeaderqryCustomer</a:HeaderElementId>&#13;&#10;   <a:FooterElementId></a:FooterElementId>&#13;&#10;   <a:CaptionElementId></a:CaptionElementId>&#13;&#10;   <a:RecordNavigationElementId>NavigationSectionqryCustomer</a:RecordNavigationElementId>&#13;&#10;   <a:DataPageSize>1</a:DataPageSize>&#13;&#10;  </a:GroupLevel>&#13;&#10;  <a:Datamodel version=&quot;0816&quot;>&#13;&#10;   <a:SchemaRowsource id=&quot;qryCustomer&quot; type=&quot;dscProcedure&quot;>&#13;&#10;    <a:SchemaField id=&quot;CustomerId&quot; datatype=&quot;3&quot; size=&quot;4&quot;/>&#13;&#10;    <a:SchemaField id=&quot;LastName&quot; datatype=&quot;202&quot; size=&quot;30&quot;/>&#13;&#10;    <a:SchemaField id=&quot;FirstName&quot; datatype=&quot;202&quot; size=&quot;20&quot;/>&#13;&#10;    <a:SchemaField id=&quot;Street1&quot; datatype=&quot;202&quot; size=&quot;40&quot;/>&#13;&#10;    <a:SchemaField id=&quot;Street2&quot; datatype=&quot;202&quot; size=&quot;40&quot;/>&#13;&#10;    <a:SchemaField id=&quot;City&quot; datatype=&quot;202&quot; size=&quot;20&quot;/>&#13;&#10;    <a:SchemaField id=&quot;State&quot; datatype=&quot;202&quot; size=&quot;2&quot;/>&#13;&#10;    <a:SchemaField id=&quot;Country&quot; datatype=&quot;202&quot; size=&quot;20&quot;/>&#13;&#10;    <a:SchemaField id=&quot;ZipCode&quot; datatype=&quot;202&quot; size=&quot;5&quot;/>&#13;&#10;    <a:SchemaField id=&quot;HomePhone&quot; datatype=&quot;202&quot; size=&quot;15&quot;/>&#13;&#10;    <a:SchemaParameter id=&quot;[CITY]&quot; datatype=&quot;202&quot;/>&#13;&#10;    <a:SchemaParameter id=&quot;[STATE]&quot; datatype=&quot;202&quot;/>&#13;&#10;   </a:SchemaRowsource>&#13;&#10;   <a:RecordsetDef id=&quot;qryCustomer&quot;>&#13;&#10;    <a:PageField id=&quot;LastName&quot;/>&#13;&#10;    <a:PageField id=&quot;FirstName&quot;/>&#13;&#10;    <a:PageField id=&quot;Street1&quot;/>&#13;&#10;    <a:PageField id=&quot;Street2&quot;/>&#13;&#10;    <a:PageField id=&quot;City&quot;/>&#13;&#10;    <a:PageField id=&quot;State&quot;/>&#13;&#10;    <a:PageField id=&quot;Country&quot;/>&#13;&#10;    <a:PageField id=&quot;ZipCode&quot;/>&#13;&#10;    <a:PageField id=&quot;HomePhone&quot;/>&#13;&#10;    <a:GroupingDef id=&quot;qryCustomer-LastName&quot;>&#13;&#10;     <a:PageField id=&quot;GroupOfqryCustomer-LastName&quot; source=&quot;LastName&quot;/>&#13;&#10;    </a:GroupingDef>&#13;&#10;   </a:RecordsetDef>&#13;&#10;  </a:Datamodel>&#13;&#10; </a:DataSourceControl>&#13;&#10;</xml>'&quot;"></OBJECT>
+<META content="MSHTML 5.50.4134.600" name=GENERATOR><!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Christopher Kesler</o:Author>
+  <o:LastAuthor>Christopher Kesler</o:LastAuthor>
+  <o:Revision>1</o:Revision>
+  <o:TotalTime>0</o:TotalTime>
+  <o:Created>2001-02-02T17:02:23Z</o:Created>
+  <o:LastSaved>2001-02-02T17:05:25Z</o:LastSaved>
+  <o:Company>Arch Wireless</o:Company>
+  <o:Version>9.2720</o:Version>
+ </o:DocumentProperties>
+ <o:OfficeDocumentSettings>
+  <o:DownloadComponents/>
+  <o:LocationOfComponents HRef="file:E:\msowc.cab"/>
+ </o:OfficeDocumentSettings>
+</xml><![endif]--></HEAD>
+<BODY style="OVERFLOW: auto" bottomMargin=48 vLink=#800080 link=#800080 
+leftMargin=24 topMargin=24 rightMargin=24>
+<CENTER>
+<H1 id=HeadingText 
+style="DISPLAY: none; FONT-WEIGHT: normal; COLOR: inactivecaptiontext" 
+MSOTITLE="YES">Click here and type title text</H1></CENTER>
+<P>&nbsp;</P>
+<DIV class=MicrosoftAccessBanner id=HeaderqryCustomerLastNameBanner 
+style="BORDER-RIGHT: buttonhighlight 2px outset; BORDER-TOP: buttonhighlight 2px outset; DISPLAY: none; PADDING-LEFT: 1px; FONT-WEIGHT: normal; FONT-SIZE: 8pt; OVERFLOW: hidden; BORDER-LEFT: buttonhighlight 2px outset; WIDTH: 500px; BORDER-BOTTOM: buttonhighlight 2px outset; FONT-FAMILY: Tahoma; HEIGHT: 0.2in; BACKGROUND-COLOR: buttonface">Header: 
+qryCustomer-LastName</DIV>
+<DIV class=MSOShowDesignGrid id=HeaderqryCustomerLastName 
+style="VISIBILITY: hidden; OVERFLOW: hidden; WIDTH: 500px; POSITION: relative; HEIGHT: 26px; BACKGROUND-COLOR: transparent">
+<OBJECT id=qryCustomer-LastNameExpand 
+style="LEFT: 8px; WIDTH: 20px; POSITION: absolute; TOP: 8px; HEIGHT: 20px" 
+codeBase=file:E:\msowc.cab#version=9,0,0,2710 
+classid=CLSID:0002E532-0000-0000-C000-000000000046><PARAM NAME="_State" VALUE=""><PARAM NAME="Bitmap" VALUE="0"></OBJECT><SPAN class=MSTheme-Label 
+id=GroupOfqryCustomer-LastName_Label title=GroupOfqryCustomer-LastName 
+style="PADDING-LEFT: 1px; LEFT: 0.333in; OVERFLOW: visible; WIDTH: 1.083in; POSITION: absolute; TOP: 0in; HEIGHT: 0.177in">GroupOfqryCustomer-LastName</SPAN><TEXTAREA id=GroupOfqryCustomer-LastName title=GroupOfqryCustomer-LastName style="LEFT: 1.417in; OVERFLOW: hidden; WIDTH: 1.604in; POSITION: absolute; TOP: 0in; HEIGHT: 0.177in" tabIndex=1></TEXTAREA></DIV>
+<DIV class=MicrosoftAccessBanner id=HeaderqryCustomerBanner 
+style="BORDER-RIGHT: buttonhighlight 2px outset; BORDER-TOP: buttonhighlight 2px outset; DISPLAY: none; PADDING-LEFT: 1px; FONT-WEIGHT: normal; FONT-SIZE: 8pt; OVERFLOW: hidden; BORDER-LEFT: buttonhighlight 2px outset; WIDTH: 500px; BORDER-BOTTOM: buttonhighlight 2px outset; FONT-FAMILY: Tahoma; HEIGHT: 0.2in; BACKGROUND-COLOR: buttonface">Header: 
+qryCustomer</DIV>
+<DIV class=MSOShowDesignGrid id=HeaderqryCustomer 
+style="VISIBILITY: hidden; OVERFLOW: hidden; WIDTH: 500px; POSITION: relative; HEIGHT: 2.01in; BACKGROUND-COLOR: transparent"><SPAN 
+class=MSTheme-Label id=FirstName_Label title=FirstName 
+style="PADDING-LEFT: 1px; LEFT: 1.25in; OVERFLOW: visible; WIDTH: 1.083in; POSITION: absolute; TOP: 0in; HEIGHT: 0.177in">FirstName</SPAN><TEXTAREA id=FirstName title=FirstName style="LEFT: 2.333in; OVERFLOW: hidden; WIDTH: 1.083in; POSITION: absolute; TOP: 0in; HEIGHT: 0.177in" tabIndex=2></TEXTAREA><SPAN 
+class=MSTheme-Label id=Street1_Label title=Street1 
+style="PADDING-LEFT: 1px; LEFT: 1.25in; OVERFLOW: visible; WIDTH: 1.083in; POSITION: absolute; TOP: 0.25in; HEIGHT: 0.177in">Street1</SPAN><TEXTAREA id=Street1 title=Street1 style="LEFT: 2.333in; OVERFLOW: hidden; WIDTH: 2.125in; POSITION: absolute; TOP: 0.25in; HEIGHT: 0.177in" tabIndex=3></TEXTAREA><SPAN 
+class=MSTheme-Label id=Street2_Label title=Street2 
+style="PADDING-LEFT: 1px; LEFT: 1.25in; OVERFLOW: visible; WIDTH: 1.083in; POSITION: absolute; TOP: 0.5in; HEIGHT: 0.177in">Street2</SPAN><TEXTAREA id=Street2 title=Street2 style="LEFT: 2.333in; OVERFLOW: hidden; WIDTH: 2.125in; POSITION: absolute; TOP: 0.5in; HEIGHT: 0.177in" tabIndex=4></TEXTAREA><SPAN 
+class=MSTheme-Label id=City_Label title=City 
+style="PADDING-LEFT: 1px; LEFT: 1.25in; OVERFLOW: visible; WIDTH: 1.083in; POSITION: absolute; TOP: 0.75in; HEIGHT: 0.177in">City</SPAN><TEXTAREA id=City title=City style="LEFT: 2.333in; OVERFLOW: hidden; WIDTH: 1.083in; POSITION: absolute; TOP: 0.75in; HEIGHT: 0.177in" tabIndex=5></TEXTAREA><SPAN 
+class=MSTheme-Label id=State_Label title=State 
+style="PADDING-LEFT: 1px; LEFT: 1.25in; OVERFLOW: visible; WIDTH: 1.083in; POSITION: absolute; TOP: 1in; HEIGHT: 0.177in">State</SPAN><TEXTAREA id=State title=State style="LEFT: 2.333in; OVERFLOW: hidden; WIDTH: 0.479in; POSITION: absolute; TOP: 1in; HEIGHT: 0.177in" tabIndex=6></TEXTAREA><SPAN 
+class=MSTheme-Label id=Country_Label title=Country 
+style="PADDING-LEFT: 1px; LEFT: 1.25in; OVERFLOW: visible; WIDTH: 1.083in; POSITION: absolute; TOP: 1.25in; HEIGHT: 0.177in">Country</SPAN><TEXTAREA id=Country title=Country style="LEFT: 2.333in; OVERFLOW: hidden; WIDTH: 1.083in; POSITION: absolute; TOP: 1.25in; HEIGHT: 0.177in" tabIndex=7></TEXTAREA><SPAN 
+class=MSTheme-Label id=ZipCode_Label title=ZipCode 
+style="PADDING-LEFT: 1px; LEFT: 1.25in; OVERFLOW: visible; WIDTH: 1.083in; POSITION: absolute; TOP: 1.5in; HEIGHT: 0.177in">ZipCode</SPAN><TEXTAREA id=ZipCode title=ZipCode style="LEFT: 2.333in; OVERFLOW: hidden; WIDTH: 0.635in; POSITION: absolute; TOP: 1.5in; HEIGHT: 0.177in" tabIndex=8></TEXTAREA><SPAN 
+class=MSTheme-Label id=HomePhone_Label title=HomePhone 
+style="PADDING-LEFT: 1px; LEFT: 1.25in; OVERFLOW: visible; WIDTH: 1.083in; POSITION: absolute; TOP: 1.75in; HEIGHT: 0.177in">HomePhone</SPAN><TEXTAREA id=HomePhone title=HomePhone style="LEFT: 2.333in; OVERFLOW: hidden; WIDTH: 0.823in; POSITION: absolute; TOP: 1.75in; HEIGHT: 0.177in" tabIndex=9></TEXTAREA></DIV>
+<DIV class=MicrosoftAccessBanner id=NavigationSectionqryCustomerBanner 
+style="BORDER-RIGHT: buttonhighlight 2px outset; BORDER-TOP: buttonhighlight 2px outset; DISPLAY: none; PADDING-LEFT: 1px; FONT-WEIGHT: normal; FONT-SIZE: 8pt; OVERFLOW: hidden; BORDER-LEFT: buttonhighlight 2px outset; WIDTH: 500px; BORDER-BOTTOM: buttonhighlight 2px outset; FONT-FAMILY: Tahoma; HEIGHT: 0.2in; BACKGROUND-COLOR: buttonface">NavigationSection: 
+qryCustomer</DIV>
+<DIV class=MSOShowDesignGrid id=NavigationSectionqryCustomer 
+style="VISIBILITY: hidden; OVERFLOW: hidden; WIDTH: 500px; POSITION: relative; HEIGHT: 35px; BACKGROUND-COLOR: transparent">
+<OBJECT id=qryCustomerNavigation 
+style="LEFT: 8px; WIDTH: 438px; POSITION: absolute; TOP: 5px" 
+codeBase=file:E:\msowc.cab#version=9,0,0,2710 
+classid=CLSID:0002E531-0000-0000-C000-000000000046><PARAM NAME="_State" VALUE=""><PARAM NAME="RecordSource" VALUE="qryCustomer"><PARAM NAME="RecordsetLabel" VALUE="qryCustomer |0 of |2;qryCustomer |0-|1 of |2"><PARAM NAME="ShowFirstButton" VALUE="-1"><PARAM NAME="ShowPrevButton" VALUE="-1"><PARAM NAME="ShowNextButton" VALUE="-1"><PARAM NAME="ShowLastButton" VALUE="-1"><PARAM NAME="ShowNewButton" VALUE="-1"><PARAM NAME="ShowDelButton" VALUE="-1"><PARAM NAME="ShowSaveButton" VALUE="-1"><PARAM NAME="ShowUndoButton" VALUE="-1"><PARAM NAME="ShowSortAscendingButton" VALUE="-1"><PARAM NAME="ShowSortDecendingButton" VALUE="-1"><PARAM NAME="ShowApplyFilterButton" VALUE="-1"><PARAM NAME="ShowToggleFilterButton" VALUE="-1"><PARAM NAME="ShowHelpButton" VALUE="-1"><PARAM NAME="ShowLabel" VALUE="-1"><PARAM NAME="FontName" VALUE="Tahoma"></OBJECT></DIV>
+<DIV class=MicrosoftAccessBanner id=NavigationSectionqryCustomerLastNameBanner 
+style="BORDER-RIGHT: buttonhighlight 2px outset; BORDER-TOP: buttonhighlight 2px outset; DISPLAY: none; PADDING-LEFT: 1px; FONT-WEIGHT: normal; FONT-SIZE: 8pt; OVERFLOW: hidden; BORDER-LEFT: buttonhighlight 2px outset; WIDTH: 500px; BORDER-BOTTOM: buttonhighlight 2px outset; FONT-FAMILY: Tahoma; HEIGHT: 0.2in; BACKGROUND-COLOR: buttonface">NavigationSection: 
+qryCustomer-LastName</DIV>
+<DIV class=MSOShowDesignGrid id=NavigationSectionqryCustomerLastName 
+style="VISIBILITY: hidden; OVERFLOW: hidden; WIDTH: 500px; POSITION: relative; HEIGHT: 35px; BACKGROUND-COLOR: transparent">
+<OBJECT id=qryCustomer-LastNameNavigation 
+style="LEFT: 8px; WIDTH: 492px; POSITION: absolute; TOP: 5px" 
+codeBase=file:E:\msowc.cab#version=9,0,0,2710 
+classid=CLSID:0002E531-0000-0000-C000-000000000046><PARAM NAME="_State" VALUE=""><PARAM NAME="RecordSource" VALUE="qryCustomer-LastName"><PARAM NAME="RecordsetLabel" VALUE="qryCustomer-LastName |0 of |2;qryCustomer-LastName |0-|1 of |2"><PARAM NAME="ShowFirstButton" VALUE="-1"><PARAM NAME="ShowPrevButton" VALUE="-1"><PARAM NAME="ShowNextButton" VALUE="-1"><PARAM NAME="ShowLastButton" VALUE="-1"><PARAM NAME="ShowNewButton" VALUE="-1"><PARAM NAME="ShowDelButton" VALUE="-1"><PARAM NAME="ShowSaveButton" VALUE="-1"><PARAM NAME="ShowUndoButton" VALUE="-1"><PARAM NAME="ShowSortAscendingButton" VALUE="-1"><PARAM NAME="ShowSortDecendingButton" VALUE="-1"><PARAM NAME="ShowApplyFilterButton" VALUE="-1"><PARAM NAME="ShowToggleFilterButton" VALUE="-1"><PARAM NAME="ShowHelpButton" VALUE="-1"><PARAM NAME="ShowLabel" VALUE="-1"><PARAM NAME="FontName" VALUE="Tahoma"></OBJECT></DIV>
+<P>&nbsp;</P></BODY></HTML>

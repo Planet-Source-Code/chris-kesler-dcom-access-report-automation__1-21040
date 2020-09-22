@@ -1,0 +1,1 @@
+LWHERE (((Customer.State)=[My State]) AND ((Customer.ZipCode)=[Zip Code]));
